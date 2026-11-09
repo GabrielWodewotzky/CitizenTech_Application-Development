@@ -5,9 +5,9 @@ Prof. Allan Roberto Molto · Desafio CitizenTech
 
 ## Autores
 
-- Nome do integrante 1 (RM 00000)
-- Nome do integrante 2 (RM 00000)
-- Nome do integrante 3 (RM 00000)
+Gabriel Simioni | RM563475
+Davi Xavier | RM563572
+Felipe Ramalho | RM565073
 
 ## Vídeo pitch
 
@@ -16,9 +16,17 @@ Link: https://youtu.be/COLE_O_LINK_AQUI
 ## Print do projeto
 
 
-![alt text](acessibilidade-urbana/docs/print-registros.png)
-![alt text](acessibilidade-urbana/docs/print-home.png)
+<p align="center">
+  <img src="acessibilidade-urbana/docs/print-home.png" alt="Página inicial com o formulário" width="700">
+  <br>
+  <sub><b>Página inicial:</b> introdução, categorias e formulário de cadastro</sub>
+</p>
 
+<p align="center">
+  <img src="acessibilidade-urbana/docs/print-registros.png" alt="Painel de registros e indicadores" width="700">
+  <br>
+  <sub><b>Painel de registros:</b> indicadores, filtros e tabela</sub>
+</p>
 ---
 
 ## 1. Introdução
