@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acessibilidade Urbana</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a class="logo" href="/"><img src="/favicon.svg" alt="" width="32" height="32"> Acessibilidade Urbana</a>
+    <nav>
+      <a href="/" class="ativo">Registrar</a>
+      <a href="/registros.html">Ver registros</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-conteudo">
+      <span class="hero-selo" data-icone="Rampa" data-tam="32"></span>
+      <h2>Mapeie as barreiras da sua cidade</h2>
+      <p>Registre problemas de acessibilidade e ajude a priorizar melhorias para todos.</p>
+    </div>
+  </section>
+
+  <main>
+    <section class="card">
+      <h2>Sobre o projeto</h2>
+      <div class="info-grid">
+        <div class="info">
+          <span class="icone grande" style="--cor:#dc3545" data-icone="problema" data-tam="24"></span>
+          <div><h3>Problema</h3><p>Barreiras de acessibilidade nas ruas (calçadas quebradas, rampas ausentes, sinalização inadequada) dificultam a locomoção e não são registradas de forma organizada.</p></div>
+        </div>
+        <div class="info">
+          <span class="icone grande" style="--cor:#0d6efd" data-icone="publico" data-tam="24"></span>
+          <div><h3>Público-alvo</h3><p>Pessoas com deficiência, idosos, pessoas com mobilidade reduzida e a comunidade em geral.</p></div>
+        </div>
+        <div class="info">
+          <span class="icone grande" style="--cor:#198754" data-icone="objetivo" data-tam="24"></span>
+          <div><h3>Objetivo</h3><p>Permitir o registro de barreiras e gerar indicadores para apoiar a priorização de melhorias.</p></div>
+        </div>
+        <div class="info">
+          <span class="icone grande" style="--cor:#6f42c1" data-icone="ods" data-tam="24"></span>
+          <div><h3>ODS</h3><p>ODS 11 (Cidades e Comunidades Sustentáveis) e ODS 10 (Redução das Desigualdades).</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Categorias</h2>
+      <div class="categorias">
+        <div class="cat"><span class="icone" style="--cor:#fd7e14" data-icone="Calçada"></span>Calçada</div>
+        <div class="cat"><span class="icone" style="--cor:#0d6efd" data-icone="Rampa"></span>Rampa</div>
+        <div class="cat"><span class="icone" style="--cor:#198754" data-icone="Sinalização"></span>Sinalização</div>
+        <div class="cat"><span class="icone" style="--cor:#6f42c1" data-icone="Transporte"></span>Transporte</div>
+        <div class="cat"><span class="icone" style="--cor:#6c757d" data-icone="Outros"></span>Outros</div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Registrar ocorrência</h2>
+      <form id="form-registro">
+        <label for="local">Local</label>
+        <input type="text" id="local" name="local" placeholder="Ex.: Av. Paulista, 1000" required>
+
+        <div class="duas-colunas">
+          <div>
+            <label for="categoria">Categoria</label>
+            <select id="categoria" name="categoria" required>
+              <option value="">Selecione...</option>
+              <option>Calçada</option>
+              <option>Rampa</option>
+              <option>Sinalização</option>
+              <option>Transporte</option>
+              <option>Outros</option>
+            </select>
+          </div>
+          <div>
+            <label for="prioridade">Prioridade</label>
+            <select id="prioridade" name="prioridade" required>
+              <option value="">Selecione...</option>
+              <option>Baixa</option>
+              <option>Média</option>
+              <option>Alta</option>
+            </select>
+          </div>
+        </div>
+
+        <label for="descricao">Descrição</label>
+        <textarea id="descricao" name="descricao" rows="4" placeholder="Descreva o problema (mínimo 10 caracteres)" required></textarea>
+
+        <button type="submit"><span data-icone="enviar" data-tam="18"></span> Enviar registro</button>
+      </form>
+      <p id="mensagem" role="status"></p>
+    </section>
+  </main>
+
+  <footer>Global Solution 2026.2 · Application Development · FIAP</footer>
+
+  <script src="icons.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

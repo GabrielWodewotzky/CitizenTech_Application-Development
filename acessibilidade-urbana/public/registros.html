@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registros - Acessibilidade Urbana</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a class="logo" href="/"><img src="/favicon.svg" alt="" width="32" height="32"> Acessibilidade Urbana</a>
+    <nav>
+      <a href="/">Registrar</a>
+      <a href="/registros.html" class="ativo">Ver registros</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-conteudo">
+      <span class="hero-selo" data-icone="grafico" data-tam="32"></span>
+      <h2>Painel de ocorrências</h2>
+      <p>Acompanhe os registros e veja onde estão os problemas mais frequentes e urgentes.</p>
+    </div>
+  </section>
+
+  <main>
+    <section class="card">
+      <h2>Indicadores</h2>
+      <div id="indicadores">Carregando...</div>
+    </section>
+
+    <section class="card">
+      <div class="topo-tabela">
+        <h2>Registros cadastrados</h2>
+        <div class="filtros">
+          <select id="filtro-categoria" aria-label="Filtrar por categoria">
+            <option value="">Todas as categorias</option>
+            <option>Calçada</option>
+            <option>Rampa</option>
+            <option>Sinalização</option>
+            <option>Transporte</option>
+            <option>Outros</option>
+          </select>
+          <select id="filtro-prioridade" aria-label="Filtrar por prioridade">
+            <option value="">Todas as prioridades</option>
+            <option>Alta</option>
+            <option>Média</option>
+            <option>Baixa</option>
+          </select>
+        </div>
+      </div>
+
+      <p id="contador" class="contador"></p>
+
+      <div class="tabela-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Categoria</th>
+              <th>Local</th>
+              <th>Descrição</th>
+              <th>Prioridade</th>
+              <th>Data</th>
+            </tr>
+          </thead>
+          <tbody id="lista"></tbody>
+        </table>
+      </div>
+
+      <div id="vazio" class="vazio" hidden>
+        <span data-icone="vazio" data-tam="40"></span>
+        <p>Nenhum registro encontrado.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>Global Solution 2026.2 · Application Development · FIAP</footer>
+
+  <script src="icons.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

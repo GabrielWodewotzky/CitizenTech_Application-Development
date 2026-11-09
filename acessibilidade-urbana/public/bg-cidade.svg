@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200">
+  <defs>
+    <pattern id="j" width="14" height="18" patternUnits="userSpaceOnUse">
+      <rect x="3" y="4" width="5" height="7" fill="#fff" fill-opacity=".28"/>
+    </pattern>
+    <g id="fundo">
+      <rect x="20" y="95" width="80" height="105"/>
+      <rect x="120" y="55" width="64" height="145"/>
+      <rect x="205" y="110" width="90" height="90"/>
+      <rect x="320" y="35" width="72" height="165"/>
+      <rect x="415" y="85" width="96" height="115"/>
+      <rect x="535" y="120" width="70" height="80"/>
+      <rect x="630" y="50" width="80" height="150"/>
+      <rect x="735" y="100" width="90" height="100"/>
+      <rect x="850" y="30" width="70" height="170"/>
+      <rect x="945" y="90" width="100" height="110"/>
+      <rect x="1070" y="60" width="76" height="140"/>
+      <rect x="1170" y="115" width="84" height="85"/>
+      <rect x="1280" y="45" width="68" height="155"/>
+      <rect x="1370" y="100" width="70" height="100"/>
+    </g>
+    <g id="frente">
+      <rect x="0" y="140" width="60" height="60"/>
+      <rect x="80" y="120" width="70" height="80"/>
+      <rect x="260" y="150" width="90" height="50"/>
+      <rect x="470" y="130" width="64" height="70"/>
+      <rect x="690" y="145" width="80" height="55"/>
+      <rect x="900" y="125" width="70" height="75"/>
+      <rect x="1100" y="148" width="90" height="52"/>
+      <rect x="1300" y="132" width="70" height="68"/>
+    </g>
+  </defs>
+
+  <circle cx="1240" cy="70" r="90" fill="#fff" fill-opacity=".06"/>
+  <circle cx="1240" cy="70" r="50" fill="#fff" fill-opacity=".06"/>
+
+  <use href="#fundo" fill="#fff" fill-opacity=".10"/>
+  <use href="#fundo" fill="url(#j)"/>
+  <use href="#frente" fill="#fff" fill-opacity=".16"/>
+  <use href="#frente" fill="url(#j)"/>
+</svg>
