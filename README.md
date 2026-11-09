@@ -15,11 +15,9 @@ Link: https://youtu.be/COLE_O_LINK_AQUI
 
 ## Print do projeto
 
-![Página inicial com o formulário](docs/print-home.png)
 
-![Painel de registros e indicadores](docs/print-registros.png)
-
-
+![alt text](acessibilidade-urbana/docs/print-registros.png)
+![alt text](acessibilidade-urbana/docs/print-home.png)
 
 ---
 
