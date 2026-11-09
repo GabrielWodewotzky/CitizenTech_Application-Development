@@ -19,7 +19,7 @@ Link: https://youtu.be/COLE_O_LINK_AQUI
 
 ![Painel de registros e indicadores](docs/print-registros.png)
 
-> Para os prints aparecerem, salve as imagens na pasta `docs/` com esses nomes.
+
 
 ---
 
