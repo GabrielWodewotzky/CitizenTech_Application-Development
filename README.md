@@ -11,7 +11,7 @@ Felipe Ramalho | RM565073
 
 ## Vídeo pitch
 
-Link: https://youtu.be/COLE_O_LINK_AQUI
+Link: https://youtu.be/Lgr5tG6UUXU
 
 ## Print do projeto
 

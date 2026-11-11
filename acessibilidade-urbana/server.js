@@ -82,7 +82,8 @@ app.get('/api/indicadores', async (req, res) => {
 app.get('/favicon.ico', (req, res) => res.redirect(301, '/favicon.svg'));
 
 // 404 para qualquer rota inexistente
-res.status(404).send(`
+app.use((req, res) => {
+  res.status(404).send(`
   <!DOCTYPE html>
   <html lang="pt-BR">
   <head>
@@ -106,6 +107,7 @@ res.status(404).send(`
   </body>
   </html>
 `);
+});
 
 // Conexão e start
 mongoose
